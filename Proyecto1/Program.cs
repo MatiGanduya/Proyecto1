@@ -10,12 +10,24 @@ namespace Proyecto1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+
+            Circulo miCirculo; //Creación de variable/objeto de tipo Circulo
+
+            miCirculo = new Circulo(); //Iniciación de variables de tipo Circulo. Instanciar una clase
+
         }
     }
+
 
     class Circulo
     {
         double pi = 3.1216;
+
+        double calculoArea(int radio)
+        {
+
+            return pi * radio * radio;
+        }
+
     }
 }
