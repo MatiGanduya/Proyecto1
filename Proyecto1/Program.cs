@@ -10,6 +10,12 @@ namespace Proyecto1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
         }
+    }
+
+    class Circulo
+    {
+        double pi = 3.1216;
     }
 }
