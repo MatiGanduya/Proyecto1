@@ -15,6 +15,11 @@ namespace Proyecto1
 
             miCirculo = new Circulo(); //Iniciación de variables de tipo Circulo. Instanciar una clase
 
+            Console.WriteLine(miCirculo.calculoArea(5));
+
+            Circulo miCirculo2= new Circulo();//Declarar e iniciar en la misma linea
+
+            Console.WriteLine(miCirculo2.calculoArea(9));
         }
     }
 
@@ -23,9 +28,9 @@ namespace Proyecto1
     {
         double pi = 3.1216;
 
-        double calculoArea(int radio)
+        public double calculoArea(int radio)
         {
-
+            
             return pi * radio * radio;
         }
 
